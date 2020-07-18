@@ -8,13 +8,22 @@ class Linters
     end
     
     def functions
+        head
         title
         title_length
         h1_tag
         # alt_text
     end
-    
-    
+
+    def head
+        tit = document.search('head')
+        if tit.count <= 1
+            puts 'TEST PASSED : '.green + 'Your head tag is one'
+           else
+            puts 'TEST FAILED : '.red + 'You shouldnt have more than one head'
+    end
+     
+end
 
     def title
         tit = document.search('title')
@@ -26,29 +35,21 @@ class Linters
     end
 
     def title_length
-        unless title == true
-       puts "Enter a Title"
-        case  tit = document.search('title')
-        when tit.text.size >= 2
-         puts 'TEST FAILED : '.red + 'The title has too many characters, consider reducing it'
-        else
-         puts 'TEST PASSED : '.green + 'The length is moderate'
-        end
+      tit = document.search('title')
+      unless  tit.text.length <= 60
+        puts 'TEST FAILED : '.red + "your title's text is too long"
+      else 
+        puts 'TEST PASSED : '.green + "Your title's text is normal" 
+      end 
      end
-    end
     
-     
-     def h1_tag
-         case tit = document.search('h1')
-        when tit.count('h1') <= 1
-         puts 'TEST FAILED : '.red + 'you should only have one h1 tag'
-        else
-         puts 'TEST PASSED : '.green + 'your h1 usage is good'
+    
+ def h1_tag
+         tit = document.search('h1')
+       if tit.count <= 1
+        puts 'TEST PASSED : '.green + 'Your h1 usage is good'
+       else
+        puts 'TEST FAILED : '.red + 'You should reduce your h1 to just one'
         end
-     end
- 
-  
-
-
-    
+ end
 end
