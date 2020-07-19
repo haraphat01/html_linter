@@ -21,7 +21,7 @@ This is a basic Html checker that check html codes if you properly used the tags
  
 - Linter output
 
-![Annotation 2020-03-30 140809](https://user-images.githubusercontent.com/52670459/77918136-5f215380-7293-11ea-8654-8622f0bb2973.png)
+![screenshot](./ruby.png)
 
 ## Built With
 
@@ -39,7 +39,7 @@ This is a basic Html checker that check html codes if you properly used the tags
 - Run this command line: ruby bin/main.rb
 
 ## Video description of the project
-<a href="">click here to watch the video</a>
+<a href="https://www.loom.com/share/13fa9ff1aa6a4ff7bcfb614570a50444">click here to watch the video</a>
 
 ## Requirements
 - Ruby
