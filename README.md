@@ -1,4 +1,4 @@
-# ruby_capstone
+
 # Html Checker
 This is a basic Html checker that check html codes if you properly used the tags or not and also corroborate good SEO practise.
 
