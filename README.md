@@ -1,6 +1,6 @@
 
 # Html Checker
-This is a basic Html checker that check html codes if you properly used the tags or not and also corroborate good SEO practise.
+This is a basic Html checker that checks Html codes if you properly used the tags or not and also corroborate good SEO practice.
 
 ![screenshot](./ruby.png)
 
@@ -8,10 +8,13 @@ This is a basic Html checker that check html codes if you properly used the tags
  This linter forces users on the proper usage of html elements and also exposes them to good exposes them to basics of SEO.
 
  - The Linter checks if the head tag is present
- - It checks whether the codes has a title
- - It checks if title's character is within the required length
+ - It checks whether the codes have a title
+ - It checks if the title's character is within the required length
  - It checks if the image tag has an attribute of alt.
  - It checks the number of h1 in the code, which is recommended to be one only
+ 
+
+
  
 
  ## Examples
