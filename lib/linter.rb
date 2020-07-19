@@ -15,14 +15,16 @@ class Linters
     alt_text
   end
 
+  private
+
   def head
     tit = document.search('head')
     if tit.count <= 1
       puts 'TEST PASSED : '.green + 'Your head tag is one'
     else
       puts 'TEST FAILED : '.red + 'You shouldnt have more than one head'
-end
-end
+    end
+  end
 
   def title
     tit = document.search('title')
@@ -39,8 +41,8 @@ end
       puts 'TEST PASSED : '.green + "Your title's text is normal"
     else
       puts 'TEST FAILED : '.red + "your title's text is too long"
-      end
-   end
+    end
+  end
 
   def h1_tag
     tit = document.search('h1')
@@ -48,8 +50,8 @@ end
       puts 'TEST PASSED : '.green + 'Your h1 usage is good'
     else
       puts 'TEST FAILED : '.red + 'You should reduce your h1 to just one'
-     end
-end
+    end
+  end
 
   def alt_text
     tit = document.search('//img[@alt]')
@@ -58,6 +60,6 @@ end
 
     else
       puts 'TEST FAILED : '.red + 'one of your alt text is missing'
-     end
-end
+    end
+  end
 end

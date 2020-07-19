@@ -1,1 +1,61 @@
 # ruby_capstone
+# Html Checker
+This is a basic Html checker that check html codes if you properly used the tags or not and also corroborate good SEO practise.
+
+![screenshot](./ruby.png)
+
+ ## How it works
+ This linter forces users on the proper usage of html elements and also exposes them to good exposes them to basics of SEO.
+
+ - The Linter checks if the head tag is present
+ - It checks whether the codes has a title
+ - It checks if title's character is within the required length
+ - It checks if the image tag has an attribute of alt.
+ - It checks the number of h1 in the code, which is recommended to be one only
+ 
+
+ ## Examples
+ Below is an the code of a bad SEO HTML tag
+ - index.html
+
+ 
+- Linter output
+
+![Annotation 2020-03-30 140809](https://user-images.githubusercontent.com/52670459/77918136-5f215380-7293-11ea-8654-8622f0bb2973.png)
+
+## Built With
+
+- Ruby
+
+## Getting Started
+
+## How to run Linter
+
+- Clone the repo on your local machine
+- Cd into the folder
+
+## How to run the linter in your terminal
+
+- Run this command line: ruby bin/main.rb
+
+## Video description of the project
+<a href="">click here to watch the video</a>
+
+## Requirements
+- Ruby
+- Colorize
+- Nokogiri
+
+👤 **Arafat Akata**
+
+- Github: [@haraphat01](https://github.com/haraphat01)
+- Twitter: [@haraphat01](https://twitter.com/haraphat01)
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to <a href="https://microverse.org/">Microverse</a>
