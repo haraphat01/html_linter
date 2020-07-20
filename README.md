@@ -30,13 +30,13 @@ This is a basic Html checker that checks Html codes if you properly used the tag
 
 - Ruby
 
-## Getting Started
-
 ## How to run Linter
 
 - Clone the repo on your local machine
 - Cd into the folder
+- Add Nokogiri gem to your machine if you don't have it by typing 'gem install nokogiri'
 - Run this command line: ruby bin/main.rb
+
 
 ## How to run Test
 -after cloning the repo on your local machine
