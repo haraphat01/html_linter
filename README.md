@@ -36,9 +36,6 @@ This is a basic Html checker that checks Html codes if you properly used the tag
 
 - Clone the repo on your local machine
 - Cd into the folder
-
-## How to run the linter in your terminal
-
 - Run this command line: ruby bin/main.rb
 
 ## Video description of the project
