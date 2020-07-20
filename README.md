@@ -38,8 +38,15 @@ This is a basic Html checker that checks Html codes if you properly used the tag
 - Cd into the folder
 - Run this command line: ruby bin/main.rb
 
+## How to run Test
+-after cloning the repo on your local machine
+-make sure you have rspec installed on your machine
+- type 'rspec' to test it
+
 ## Video description of the project
 <a href="https://www.loom.com/share/13fa9ff1aa6a4ff7bcfb614570a50444">click here to watch the video</a>
+
+
 
 ## Requirements
 - Ruby
