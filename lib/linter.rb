@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'colorize'
 
 class Linters
-  attr_accessor :document
+  attr_reader :document
   def initialize
     @document = Nokogiri::HTML.parse(open('index.html'))
   end
